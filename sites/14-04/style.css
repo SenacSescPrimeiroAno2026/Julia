@@ -1,0 +1,37 @@
+body {
+    background-color:#000000;
+    color: #ffffff;
+}
+
+table, tr, td, th {
+    border: 1px solid #ffffff;
+    border-collapse: collapse; <!-- junta as bordas-->
+}
+border-radius: 5px;<!--bordas circulares-->
+
+tr {
+    border-style: dotted;
+    border-color: #ffff00;
+}
+
+table {
+    width: 100%; <!--tamanho largura porpocional-->
+}
+
+tr {
+    height: 50px; <!-- autura -->
+}
+
+th{
+    background-color: #ff0000;
+}
+
+th, td {
+    padding: 30px; <!-- expacamento interno, entre a escrita e a tabela -->
+    padding-top: 60px;
+    border-spacing: 
+}
+.tabela2 {
+    color: rgb(51, 0, 255);
+    border-color: rgb(43, 255, 0);
+}

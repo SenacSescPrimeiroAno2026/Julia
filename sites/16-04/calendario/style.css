@@ -1,0 +1,29 @@
+.container{
+    background-color: hsl(60, 71%, 91%);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container div {
+    background-color: #f8ffc1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border-color: #aca0ff;
+
+}
+
+
+.semana{
+    background-color: #ffffcb;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.f{
+    background-color: gray;
+}

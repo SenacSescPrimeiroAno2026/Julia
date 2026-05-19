@@ -1,0 +1,39 @@
+segunda pagina.html
+
+<head lang="pt-BR">
+
+		<meta charset="UTF-8">
+
+		<title> 
+			Aula 
+		</title>
+	
+		<style>
+			p{
+				color: green;
+			}
+		</style>
+
+		<link> rel= "stylesheet" href="style.css"
+
+	</head>
+	
+	<body>
+		<h1> 
+			Aula dia 08/04/26
+		</h1>
+
+		<p 
+			style= "color; red;"> vermelho 
+		</p>
+
+		<p>
+			cor com estilo interno verde 
+		</p>
+
+		<h2> 
+			alterando com estilo externo 
+		</h2>
+
+	
+	</body>

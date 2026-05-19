@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dra. Tatsch</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW" crossorigin="anonymous">
+   
+</head>
+
+<body>
+    <div class="bg-light; p-3 mb-2 bg-info text-white">
+        <h1>Dra. Júlia Tatsch </h1>
+        <br><br>
+    </div>
+
+    <p class="mx-auto"> Para marcar uma consulta, responda:</p>
+    <div  class="mx-auto">
+        <div class="formulario; mx-auto">
+
+            <form action="recebe.html">
+                <br>
+                <label for="id_nome">
+                    Nome Completo:
+                </label>
+                <br>
+                <input type="text" id="id_nome" name="lnome" value="">
+                <br>
+                <br>
+                <label for="id_idade">
+                    Idade:
+                </label>
+                <br>
+                <input type="number" id="id_idade" name="lidade" value="">
+                <br>
+                <br>
+                <h2> contato:</h2>
+                <label for="id_email">
+                    Email:
+                </label>
+                <br>
+                <input type="text" id="id_email" name="lemail" value="">
+                <br>
+                <br>
+                <label for="id_telefone">
+                    telefone:
+                </label>
+                <br>
+                <input type="text" id="id_telefone" name="ltelefone" value="">
+                <br>
+                <br>
+
+
+                <h2> Consulta:</h2>
+                <div class="form-row align-items-center">
+                    <div class="col-auto my-1">
+                        <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect"> Melhor turno:</label>
+                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                            <option selected>Escolha</option>
+                            <option value="1">Manhã</option>
+                            <option value="2">Meio-dia</option>
+                            <option value="3">Tarde</option>
+                            <option value="4">Tardezinha</option>
+                        </select>
+                    </div>
+                    <br><br>
+                    <p> Sobre o que se trata?</p>
+
+                    <label for="1" class="custom-control-input">
+                        <input type="checkbox" id="1" name="rotina" value="rotina">
+                        Rotina </label>
+                    <br>
+                    <label for="2" class="custom-control-input">
+                        <input type="checkbox" id="2" name="dores" value="dores">
+                        Dores</label>
+                    <br>
+                    <input class="custom-control-input" type="checkbox" id="3" name="febre" value="febre">
+                    <label for="3"> Febre </label>
+                    <br>
+                    <input class="custom-control-input" type="checkbox" id="4" name="tontura" value="tontura">
+                    <label for="4">tontura</label>
+                    <br>
+                    <input class="custom-control-input" type="checkbox" id="5" name="ar" value="ar">
+                    <label for="5"> Falta de ar</label>
+                    <br>
+                    <input class="custom-control-input" type="checkbox" id="6" name="gases" value="gases">
+                    <label for="6">gases</label>
+                    <br>
+                    <input class="custom-control-input" type="checkbox" id="7" name="cansaco" value="cansaco">
+                    <label for="7">Cansaço</label>
+                    <br>
+                    <input class="custom-control-input" type="checkbox" id="8" name="outro" value="outro">
+                    <label for="8"> Outro</label>
+                    <br>
+
+                    <br><br>
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                        Concordo com os TERMOS DE CADASTRO
+                    </label>
+
+
+                    <br><br>
+                    <button type="button" class="btn btn-light">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

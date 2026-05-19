@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formularios </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="formulario">
+            <h1> formulario html </h1>
+
+            <form action="recebe.html">
+                <br>
+                <label for="id_nome">
+                    nome:
+                </label>
+                <br>
+                <input type="text" id="id_nome" name="lnome" value="">
+                <br>
+                <br>
+                <label for="id_senha">
+                    senha:
+                </label>
+                <br>
+                <input type="password" id="id_senha" name="lsenha" value="">
+                <br>
+                <br>
+                <input type="submit" value="enviar">
+            </form>
+            <br> <br>
+            <p> Escolha sua cor favoreita:</p>
+            <form>
+
+                <input type="radio" id="azul" name="cor" value="Azul">
+                <label for="Azul"> Azul</label>
+                <br>
+                <input type="radio" id="vermelho" name="cor" value="Vermelho">
+                <label for="Vermelho"> Vermelho</label>
+                <br>
+                <input type="radio" id="verde" name="cor" value="Verde">
+                <label for="Verde"> Verde </label>
+            </form>
+
+            <br><br>
+
+            <p> Escolha seus esporte(s) favoritos</p>
+            <form action="">
+                <input type="checkbox" id="esporte_1" name="esporte_1" value="futebol">
+                <label for="esporte_1">futebol</label>
+                <br>
+                <input type="checkbox" id="esporte_2" name="esporte_2" value="volei">
+                <label for="esporte_2">volei</label>
+                <br>
+                  <input type="checkbox" id="esporte_3" name="esporte_3" value="ciclismo">
+                <label for="esporte_3"> ciclismo </label>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

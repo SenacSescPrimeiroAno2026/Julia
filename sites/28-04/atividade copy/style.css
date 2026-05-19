@@ -1,0 +1,31 @@
+.titulo{
+   background-color: aqua;
+    border: 5px;
+    height: 90px;
+    font-size: 200%;
+}
+
+.a {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container{
+    background-color: #D3D3D3;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+     border-radius: 50px;
+}
+
+.enviar{
+    background-color: aqua;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.marcar{
+    text-align: center;
+}
+
