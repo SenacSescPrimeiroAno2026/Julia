@@ -1,0 +1,75 @@
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        
+        .t {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background-color: blue; /
+            color #ffffff
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ffffff; /* Cor de destaque para o seu nome */
+            text-decoration: none;
+        }
+
+       
+        .mim a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            margin-left: 20px;
+            transition: color 0.3s ease;
+        }
+
+       
+        .mim a:hover {
+            color: yellow;
+        }
+
+       
+        @media (max-width: 600px) {
+            .mim {
+                flex-direction: column;
+                gap: 15px;
+                padding: 15px;
+            }
+            .mim a {
+                margin: 0 10px;
+                font-size: 1rem;
+            }
+
+        }
+
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 20px;
+            background-color: yellow;
+        }
+
+
+        #ffff00
+#feff36
+
+#fcfd96
+
+#2196f3
+
+#6bbef9
