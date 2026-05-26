@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+
+    <header>
+         <h1 class="w">Feira de Tecnologias Escola 2026</h1>
+        <br>
+        <p class="w">O evento escolar deste ano (2026) irá ser uma Feira de Técnologias. Nela iremos apresentar as atividades dos alunos, além de palestras e diverssas atividades.</p>
+    </header>
+
+    <h2>Formulário de Inscrição:</h2>
+    <form action="submit_form.php" method="post">
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" id="telefone" name="telefone"><br><br>
+
+        <label for="pessoas">Quantas pessoas irão acompanhar?</label><br>
+        <input type="number" id="pessoas" name="pessoas" required><br><br>
+
+        <label for="nome">Nome do estudante:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="turma">Turma:</label><br>
+        <select id="turma" name="turma" required>
+            <option value="">Selecione a turma do estudante</option>
+            <option value="1° ano">1A</option>
+            <option value="2° ano">2A</option>
+            <option value="3° ano">3B</option>
+
+        </select>
+
+        <br><br>
+
+        <input class="enviar" type="submit" value="Enviar">
+    </form>
+
+    <footer id="contato">
+        <h3>Criado pela turma do 1º ano do colégio sesc-2026</h3>
+    </footer>
+</body>
+</html>
