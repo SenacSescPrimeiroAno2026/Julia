@@ -1,0 +1,71 @@
+body{
+    background-color: white;
+}
+
+*{
+    color: rgb(72, 1, 72);
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+header{
+    background-color: purple;
+    gap: 20px;
+}
+
+.formulario{
+    background-color: white;
+   text-decoration: none;
+   padding: 5px;
+   cursor: pointer;
+   border: 2px solid rgb(72, 1, 72);
+
+}
+
+nav{
+    justify-content: center;
+}
+.menu{
+    text-decoration: none;
+    padding: 5px;
+    background-color: purple;
+    cursor: pointer;
+    border: 2px solid rgb(72, 1, 72);
+}
+
+.Aa{
+    background-color: purple;
+    padding: 20px;
+}
+
+.pp{
+    text-align: center;
+}
+
+h4, h3, h2{
+    background-color: white;
+}
+
+.w{
+    color: white;
+}
+
+.Bb{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    background-color: purple;
+    text-align: center;
+    justify-content: center;   
+}
+
+footer{
+    background-color: purple;
+}
