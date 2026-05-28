@@ -27,3 +27,8 @@ table, tr, th, td{
 .f{
     background-color: gray;
 }
+
+table{
+    width: 190px;
+    margin: 10px;
+}

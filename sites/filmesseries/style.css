@@ -64,6 +64,8 @@ h2.imagens{
 .perssonagens{
     background-color: brown;
     text-align: center;
+    justify-content: center;
+    display: flex;
 
 }
 
@@ -73,4 +75,5 @@ h2.perssonagens{
 
 .per{
     width: 150px;
+    
 }
