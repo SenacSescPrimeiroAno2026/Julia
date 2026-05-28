@@ -73,7 +73,10 @@ h2.perssonagens{
     color: white;
 }
 
-.per{
-    width: 150px;
-    
+.pe{
+    background-color: brown;
+      font-size: 20px;
+     width: 170px;
+    height: 330px;
+    border: 20px;
 }
